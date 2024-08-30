@@ -1,4 +1,42 @@
 .Main{
     padding: 0.5rem 1rem;
     padding-bottom: 2.5rem;
+    
 }
+
+ul{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    border: 1px solid gray;
+    width: 250px;
+    height: 40vh;
+    padding: 5px;
+    gap: 5px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    border:solid 1px gray;
+    width: 90%;
+    padding: 5px;
+    padding-bottom: 3px;
+    
+}
+
+button{
+    text-align: center;
+}
+
+.box-1{
+    border: solid 1px black;
+}
+
+ 
+
+
+
+
