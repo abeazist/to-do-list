@@ -5,7 +5,7 @@ export function Main(props) {
     return (
         <div className={styles.Main}>
             {/* {children} */}
-            <div class="box-1">
+            <div className={styles.box}>
                 <input type="text" />
                 <button>+</button>
             </div>
